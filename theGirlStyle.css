@@ -1,0 +1,22 @@
+img {
+	float: left;
+	margin-right: 15px;
+}
+
+dl {
+	float: left;
+}
+
+dl dt {
+	font-weight: bold; 
+	float: left;
+	display:block;
+	clear:left;
+	width: 175px;
+}
+
+dl dd {
+	float: left;
+	display:block;
+	
+}

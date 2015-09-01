@@ -1,3 +1,10 @@
+body {
+	text: #000000;
+	background: white;
+	margin: 0;
+
+}
+
 img {
 	display: block;
 	margin-left: auto;
@@ -11,15 +18,44 @@ p {
 	text-align: left;
 }
 
+h1 {
+	color: red;
+	font-size: 24px;
+	font-family: impact, arial;
+	text-shadow:
+		-1px -1px white,
+		1px -1px white,
+		-1px 1px white,
+		1px 1px white,
+		-2px -2px red,
+		2px -2px red,
+		-2px 2px red,
+		2px 2px red; 
+}
+
+h6 {
+	color: white;
+	font-size: 13px;
+}
+
 .headerContent {
 	text-align: center;
 	float: center;
+	background: #000099;
+	padding-top: 5px;
+}
+
+.headerContent img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
 }
 
 .headerBreak {
 	width: 100%;
 	height: 0;
-	border-bottom: 2px solid blue;
+	border-bottom: 2px solid #000099;
 }
 
 .nav {
@@ -35,6 +71,7 @@ background: red;
 
 .nav ul li {
 	list-style: none;
+	font-family: impact, arial;
 }
 
 .nav ul li a {
@@ -42,9 +79,13 @@ background: red;
 	float: left;
 	display: block;
 	padding: 10px 20px;
-	color: blue; 
+	color: white; 
 }
 
 .nav ul li a:hover {
-	color: white;
+	color: blue;
+}
+
+.aboutTheGirls, .theGirlsNow {
+	width: 256px;
 }
