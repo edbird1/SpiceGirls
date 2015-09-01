@@ -10,3 +10,41 @@ img {
 p {
 	text-align: left;
 }
+
+.headerContent {
+	text-align: center;
+	float: center;
+}
+
+.headerBreak {
+	width: 100%;
+	height: 0;
+	border-bottom: 2px solid blue;
+}
+
+.nav {
+margin-top: 20px;
+height: 40px;
+background: red;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	list-style: none;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 10px 20px;
+	color: blue; 
+}
+
+.nav ul li a:hover {
+	color: white;
+}
