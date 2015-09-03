@@ -6,7 +6,6 @@ body {
 }
 
 img {
-	display: block;
 	margin-left: auto;
 	margin-right: auto;	
 	margin: 5px;
@@ -86,10 +85,6 @@ background: red;
 	color: blue;
 }
 
-#mainContent {
-	width: 256px;
-}
-
 .vidContent {
 	background: #66CCFF;
 }
@@ -98,4 +93,28 @@ background: red;
 	text-decoration: none;
 	float: left;
 	display: block;
+}
+
+#ourFlex {
+	text-align: center;
+}
+
+.mainContent {
+	display: inline-block;
+	width: 450px;
+}
+
+.mainContent p {
+	font-weight: bold;
+}
+
+.footer h5 {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.footerBreak {
+	width: 100%;
+	height: 0;
+	border-bottom: 1px solid #000099;
 }
