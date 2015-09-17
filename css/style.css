@@ -162,7 +162,7 @@ dl dd {
 	background: ;
 }
 
-.musicTitle {
+.musicTitle, .nowTitle, .thenTitle, .historyTitle {
 	background: #66CCFF;
 }
 
