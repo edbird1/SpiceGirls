@@ -47,7 +47,7 @@ h2 {
 		2px -2px black,
 		-2px 2px black,
 		2px 2px black;
-	padding-left: 20px;
+	padding: 0 1%;
 }
 
 h6 {
@@ -132,10 +132,11 @@ background: red;
 }
 
 .aboutGirlsThen, .aboutGirlsNow {
-	margin-left: 10px;
+	margin: 0 1%;
+	width:98%;
 }
 
-.imageThen {
+.imageThen, .imageNow {
 	float: left;
 	margin-right: 20px;
 }
