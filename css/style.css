@@ -15,6 +15,7 @@ img {
 
 p {
 	text-align: left;
+	margin: 0 2%;
 }
 
 h1 {
@@ -164,6 +165,10 @@ dl dd {
 
 .musicTitle, .nowTitle, .thenTitle, .historyTitle {
 	background: #66CCFF;
+}
+
+.historyTitle {
+	margin-top: 20px; 
 }
 
 .album {
