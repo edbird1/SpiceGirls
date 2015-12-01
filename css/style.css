@@ -20,20 +20,20 @@ p {
     margin: 0 2%;
 }
 
-h1 {
-    color: red;
+h1,
+h2 {
     margin-top: 0;
     font-size: 24px;
     font-family: impact, arial;
     text-shadow: -1px -1px white, 1px -1px white, -1px 1px white, 1px 1px white, -2px -2px black, 2px -2px black, -2px 2px black, 2px 2px black;
 }
 
+h1 {
+    color: red;
+}
+
 h2 {
     color: black;
-    margin-top: 0;
-    font-size: 24px;
-    font-family: impact, arial;
-    text-shadow: -1px -1px white, 1px -1px white, -1px 1px white, 1px 1px white, -2px -2px black, 2px -2px black, -2px 2px black, 2px 2px black;
     padding: 0 1%;
 }
 
@@ -178,11 +178,13 @@ dl dd {
     display: block;
 }
 
-.musicContent {
+
+/*.musicContent {
     background: ;
-}
+}*/
 
 .musicTitle,
+.videoTitle,
 .nowTitle,
 .thenTitle,
 .historyTitle {
@@ -200,7 +202,12 @@ dl dd {
 }
 
 .vidContent {
-    background: #66CCFF;
+    background: white;
+}
+
+.vidThumbnail {
+    width: 85%;
+    height: 540px;
 }
 
 .video li {
